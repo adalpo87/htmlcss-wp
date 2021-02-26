@@ -1,0 +1,159 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* HEADER */
+
+.logo {
+  height: 100px;
+  background-color: white;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.logo img{
+  height: 100%;
+ 
+  padding-right: 30px;
+}
+
+nav{
+  margin-bottom: 30px;
+}
+
+nav li{
+  list-style: none;
+  display: inline;
+}
+
+nav li a{
+  color: rgb(110, 105, 105);
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+nav li a:hover{
+  color: rgb(247, 111, 20);
+}
+
+.banner {
+  height: 650px;
+  background: url(../img/banner.jpg) no-repeat center;
+  background-size: cover;
+  color: white;
+  border-radius: 10px;
+}
+
+.box{
+  padding-top: 480px;
+  padding-left: 60px;
+}
+
+.box h1{
+  font-size: 40px;
+}
+.box p{
+  font-size: 20px;
+} 
+
+
+
+/* main */
+
+main {
+  height: 600px;
+}
+
+.head {
+  /* height: 80px; */
+  /* background-color: mediumslateblue; */
+  margin-bottom: 30px;
+}
+.head h2{
+  font-size: 42px;
+  font-weight: 800;
+}
+
+main .links,
+main .main-content,
+main .widgets {
+  float: left;
+  height: 80%;
+  
+}
+
+.links {
+  width: 20%;
+  background;
+}
+
+.img-links{
+  height: 150px;
+  width: 100%;
+  background: url(../img/img-1.jpg) no-repeat center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.img-content{
+  height: 150px;
+  width: 100%;
+  background: url(../img/banner-2.jpg) no-repeat center;
+  background-size: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.img-widgets{
+  height: 150px;
+  width: 100%;
+  background: url(../img/img-3.jpg) no-repeat center;
+  background-size: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+h3{
+  margin-bottom: 10px;
+}
+
+.main-content {
+  width: 56%;
+  margin: 0 2%;
+}
+
+.widgets {
+  width: 20%;
+}
+
+/* FOOTER */
+footer {
+  width: 80%;
+  margin: auto;
+  height: 60px;
+  margin-bottom: 30px;
+}
+
+footer h5{
+  text-align: center;
+}
+
+#heart{
+  content: '&#9829';
+}
