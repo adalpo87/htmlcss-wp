@@ -150,10 +150,12 @@ footer {
   margin-bottom: 30px;
 }
 
-footer h5{
-  text-align: center;
+footer{
+text-align: center;
 }
 
-#heart{
-  content: '&#9829';
+
+.heart::after {
+  content: "\2665";
+  color: red;
 }
